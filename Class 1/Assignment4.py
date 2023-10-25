@@ -29,19 +29,23 @@ Thank you for using our calculation App'''
 
 print("\n\tPYTHON CALCULATOR")
 print("\nPlease select an option and press enter to proceed:","\n1. MULTIPLICATION","\n2. ADDITION","\n3. SUBTRACTION","\n4. DIVISION")
-option = int(input("\nEnter the preferred option: "))
+option = int(input("\nEnter your preferred option: "))
 num1 = int(input("\nEnter a number: "))
 num2 = int(input("Enter another number: "))
 if option == 1:
     result = num1 * num2
+    print(num1, " x ", num2, " = ", result)
 elif option == 2:
     result = num1 + num2
+    print(num1, " + ", num2, " = ", result)
 elif option == 3:
     result = num1 - num2
+    print(num1, " - ", num2, " = ", result)
 elif option == 4:
     result = num1 / num2
+    print(num1, " / ", num2, " = ", result)
 else:
     result = "You have entered an invalid option. Please select only specified options from 1-4"
-print(result)
+
 
 print("\nThank you for using our calculation App")
