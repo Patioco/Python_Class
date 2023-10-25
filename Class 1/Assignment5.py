@@ -15,7 +15,7 @@ print("\nWelcome to guessing game app")
 num = 7
 
 for i in range(5):
-    guess = int(input("\nPlease enter a number: "))
+    guess = int(input("\nPlease enter a number between 1 and 10: "))
     if guess != num:
         print("\nPlease try again")
         print("\nYou have", 4 - i, "trials left")
